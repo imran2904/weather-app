@@ -1,11 +1,13 @@
-.container{
-    width:729px;
-    height:802px;
+.my-container{
+    width:540px;
+    height:600px;
     margin: auto;
     margin-top:60px;
     border-radius: 12px;
     background-image: linear-gradient(180deg,#130754 0%,#3b2f80 100%);
     margin-bottom: 40px;
+    
+   
 }
 .top-bar{
     display: flex;
@@ -15,8 +17,8 @@
 }
 .top-bar input{
     display:flex;
-    width: 300px;;
-    height:78px;
+    width: 250px;;
+    height:60px;
     background: #efefef; 
     border: none;
     outline: none;
@@ -33,8 +35,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 78px;
-    height: 78px;
+    width: 60px;
+    height: 60px;
     background: #efefef;
     border-radius: 40px;
     cursor: pointer;
@@ -43,24 +45,25 @@
     margin-top: 29px;
     display: flex;
     justify-content: center;
+    width: 10px;
 }
 .weather-temp{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 120px;
+    font-size: 50px;
     font-weight: 400;
 }
 .weather-location{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 400;
 
 }
 .data-container{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     color:white;
@@ -72,13 +75,14 @@
     gap: 15px;
 }
 .data{
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 400;
 }
 .text{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 .icon{
     margin-top: 10px;
+    
 }
